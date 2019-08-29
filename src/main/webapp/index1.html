@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>DMIN</title>
+</head>
+<style>
+*{
+box-sizing:borderbox;
+padding:0px;
+margin:0px;
+}
+body {
+  background: url("https://dare2compete.com/bites/wp-content/uploads/2018/07/afef4fc6-c28f-11e2-ab66-00144feab7de.jpeg");
+background-repeat: no-repeat;
+}
+
+header{
+background:black;
+}
+header h1{
+color:white;
+text-align: center;
+}
+div{
+height: 120px;
+  width: 100%;
+  background-color: orange;
+ 
+   
+}
+.center {
+  margin:20px 20px ;
+  height:50%;
+  width: 50%;
+  border: 3px solid black;
+  padding: 20px;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+	border-radius: 4px;
+}
+input[type=text]:focus {
+background-color:redorange;
+}
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+	border-radius: 4px;
+}
+input[type=password]:focus {
+background-color:redorange;
+}
+.button {background: black; color: white;
+font-size: 12px;
+ border: none;
+display: inline-block;
+text-align: center;
+  text-decoration: none;
+padding: 10px 24px;
+margin:10px;
+
+}
+.button:hover {
+  background: black; /* Green */
+  color: red;
+}
+.btn{
+ background: black; /* Green */
+  color: red;
+}
+
+ 
+</style>
+<body>
+<center>
+<header>
+<h1>Welcome to DBS</h1>
+</header>
+<div class="center">
+<center><h2>Admin Login</h2></center>
+<form method="post" action="http://localhost:8080/bankAdmin/login">
+<label>Username
+<input type="text" name="username" placeholder="admin"required><br>
+</label>
+<label>Password
+<input type="password" name ="password" placeholder"123@dbs" required><br>
+</label>
+<center>
+<button class="button" type="submit" value="LOGIN">LOGIN</button>
+</center>
+</form>
+</div>
+</center>
+
+</centre>
+</body>
+</html>
